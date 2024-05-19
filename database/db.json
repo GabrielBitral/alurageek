@@ -1,0 +1,10 @@
+{
+    "produtos": [
+        {
+            "nome": "Darth Vader",
+            "preco": 39.90,
+            "imagem": "",
+            "id": 1
+        }
+    ]
+}
