@@ -1,10 +1,22 @@
 {
-    "produtos": [
-        {
-            "nome": "Darth Vader",
-            "preco": 39.90,
-            "imagem": "",
-            "id": 1
-        }
-    ]
+  "produtos": [
+    {
+      "id": "db43",
+      "nome": "Darth Vader",
+      "valor": 77.5,
+      "imagem": "https://m.media-amazon.com/images/I/71FqBG8Ur9L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "29f8",
+      "nome": "Boneco Flash",
+      "valor": 99.99,
+      "imagem": "https://acdn.mitiendanube.com/stores/003/573/244/products/hgbfdxhb-8cee9601227c30dc8417010910358985-1024-1024.jpg"
+    },
+    {
+      "id": "b0b5",
+      "nome": "Boneco Superman",
+      "valor": 90.5,
+      "imagem": "https://m.media-amazon.com/images/I/51j6BamCUKL._AC_UF894,1000_QL80_.jpg"
+    }
+  ]
 }

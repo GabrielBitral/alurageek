@@ -1,0 +1,86 @@
+@media (min-width: 768px) {
+    /* Container principal */
+    .container__principal {
+        flex-direction: row;
+        height: 68.4vh;
+        align-items: start;
+        justify-content: space-between;
+        padding: 4% 0%;
+        gap: 0;
+    }
+
+    /* Lista produtos */
+    .container__produtos, .container__cadastrar__produto {
+        padding-top: 5%;
+        min-height: 100%;
+    }
+
+    .lista__produtos {
+        min-height: 80%;
+        max-height: 60vh;
+        padding-top: 10%;
+        overflow: scroll;
+    }
+
+    .card__produto {
+        width: 18vw;
+    }
+
+    .mensagem__sem__produtos {
+        font-size: .9rem;
+    }
+    
+    /* Cadastro de produtos */
+    .principal__formulario {
+        min-height: 80%;
+        padding-top: 10%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lista__produtos {
+        max-height: 55vh;
+    }
+}
+
+@media (min-width: 1440px) {
+    /* Container principal */
+    .container__principal {
+        padding: 0;
+        min-height: 75.5vh;
+    }
+
+    /* Lista produtos */
+    .container__produtos, .container__cadastrar__produto {
+        padding-top: 4%;
+        min-height: auto;
+    }
+ 
+    .lista__produtos {
+        max-height: 50vh;
+        padding: 5% 0 0 2%;
+        overflow: auto;
+    }
+     
+    .card__produto {
+        width: 8vw;
+    }
+    
+    /* Cadastro de produtos */
+    .principal__formulario {
+        padding-top: 5%;
+    }
+
+    .campo__input {
+        padding: 10px;
+    }
+
+    .botao {
+        padding: 10px;
+    }
+
+    /* Rodapé */
+    .rodape {
+        padding: 1% 0;
+    }
+}

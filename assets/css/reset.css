@@ -15,7 +15,9 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
 	vertical-align: baseline;
 }
 
@@ -100,7 +102,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 

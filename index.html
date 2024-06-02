@@ -1,15 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Geek</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsivo.css">
 </head>
+
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <h1 class="header__title"><span class="header__emojis">🤓🎶🎮</span>ALURA GEEK</h1>
+    </header>
+    <main class="container__principal">
+        <section class="container__produtos">
+            <h1 class="container__titles">Meus Produtos</h1>
+            <ul class="lista__produtos" data-lista>
+                <span class="mensagem__sem__produtos">Ainda não há produtos cadastrados.</span>
+            </ul>
+        </section>
+        <section class="container__cadastrar__produto">
+            <h1 class="container__titles">Adicionar Produto</h1>
+            <form class="principal__formulario" id="formulario" data-formulario>
+                <div class="campo__descricao">
+                    <input class="campo__input" id="nome" name="nome" placeholder="Nome" type="text" required minlength="3" data-nome>
+                    <span class="mensagem-erro"></span>
+                </div>
+                <div class="campo__descricao">
+                    <input class="campo__input" id="valor" name="valor" placeholder="Valor" type="text" required data-valor>
+                    <span class="mensagem-erro"></span>
+                </div>
+                <div class="campo__descricao">
+                    <input class="campo__input" id="imagem" name="imagem" placeholder="Link Imagem" type="text" required data-imagem>
+                    <span class="mensagem-erro"></span>
+                </div>
+                <div class="form__botoes">
+                    <input class="botao botao__cadastrar" value="Cadastrar" type="submit" id="cadastrar__dados">
+                    <button class="botao botao__limpar" id="botao__limpar">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p><span class="header__emojis">🤓🎶🎮</span>Alura Geek</p>
+        <p class="paragrafos">Desenvolvido por Gabriel F. C.</p>
+        <p class="paragrafos">Alura Latam - 2024</p>
+    </footer>
+
+    <script src="assets/js/validate.js" type="module" defer></script>
+    <script src="assets/js/controllers/main.js" type="module" defer></script>
 </body>
+
 </html>
